@@ -42,7 +42,7 @@ defmodule Converter do
         end
       "IQ0" -> {:nullable, {:struct, "FDateTime"}}
       "IQ" -> {:struct, "FDateTime"}
-      "Iq" -> {:struct, "FDateTime"}
+      "Iq" -> {:struct, "FVuid"}
       "3f0" -> {:nullable, {:struct, "FVector"}}
       "3f" -> {:struct, "FVector"}
       "2f" -> {:struct, "FVector2D"}
@@ -63,6 +63,7 @@ defmodule Converter do
       "f" -> :float
       "f0" -> {:nullable, :float}
       "s" -> :string
+      "?0" -> {:nullable, :bool}
       "?" -> :bool
       "ETz" <> rest ->
         {:enum, rest}

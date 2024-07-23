@@ -1,0 +1,2525 @@
+{
+  "TlsLikeEncryptClientHello": {
+    "field0": [
+      "B"
+    ]
+  },
+  "AnniversaryAchievementInitializeDataNotify": {
+    "AnniversaryAchievementInfos": {
+      "I": [
+        "FTzAnniversaryAchievementInfo"
+      ]
+    }
+  },
+  "ShopCashMerchandiseReceiveRequest": {
+    "ReceiveGuidList": [
+      "q"
+    ]
+  },
+  "DeathPenaltyDeleteResponse": {
+    "DeletedDeathPenaltyRecordGuids": [
+      "q"
+    ]
+  },
+  "AllRealmInfoPubSubChannelInitialDataNotify": {
+    "RealmInfos": [
+      [
+        "FTzRealmInfo0"
+      ]
+    ]
+  },
+  "SpellstoneAdditionalSkillStatsInfo": {
+    "CharacterStatChangesDuringSkillProgress": [
+      "FTzCharacterStatChangeInfo"
+    ]
+  },
+  "PlayerCashShopInfo": {
+    "MerchandiseBuyCountInfoList": [
+      "FTzMerchandiseBuyCountInfo0"
+    ]
+  },
+  "CheatAnniversaryAchievementResetResponse": {
+    "AnniversaryAchievementPointInfos": {
+      "I": "FTzAnniversaryAchievementPointInfo"
+    }
+  },
+  "InventoryInfo": {
+    "ItemInfos": [
+      "msg"
+    ]
+  },
+  "MarketGoodsSummaryInfoQueryNotify": {
+    "MarketGoodsSummaryInfos": [
+      "FTzMarketGoodsSummaryInfo"
+    ]
+  },
+  "CovenantInvitationInfoUpdatedNotify": {
+    "InvitedCovenantGuids": [
+      "q"
+    ]
+  },
+  "StrongholdBattleInfo": {
+    "AttackInfos": {
+      "ETzStrongholdBattleDeploymentKindType": "FTzStrongholdBattleAttackInfo"
+    }
+  },
+  "TrapInfo": {
+    "ParticipatingContentsGuids": [
+      "q"
+    ]
+  },
+  "GearBatchCraftRequest": {
+    "CraftTargetGearCategories": [
+      "ETzGearCategoryKindType"
+    ]
+  },
+  "CovenantRankingViewInfo": {
+    "OccupiedStrongholdCuids": [
+      "I"
+    ]
+  },
+  "MarketSellReregisterResponse": {
+    "IsSuccessByGoodsGuids": {
+      "q": "?"
+    }
+  },
+  "CovenantDiplomacyInfos": {
+    "ResponseInfos": {
+      "q": "msg"
+    }
+  },
+  "CovenantHistoryCheckCompleteArchitectureResponse": {
+    "CovenantHistoryInfos": [
+      "FTzCovenantHistoryInfo"
+    ]
+  },
+  "CovenantRejectInvitationsRequest": {
+    "CovenantGuids": [
+      "q"
+    ]
+  },
+  "SpellstoneAdditionalStatsInfo": {
+    "SpellstoneAdditionalHealthAndManaStatsInfosByStatsAffectKind": {
+      "ETzStatsAffectKindType": "FTzSpellstoneAdditionalHealthAndManaStatsInfo"
+    }
+  },
+  "CheatRegisterCheatEnabledPlayerNameResponse": {
+    "CheatEnabledPlayerNames": [
+      "s"
+    ]
+  },
+  "DeathPenaltyRecoverResponse": {
+    "RecoveredDeathPenaltyGuids": [
+      "q"
+    ]
+  },
+  "MonsterBookExperiencePointsItemConsumeRequest": {
+    "ItemGuidSelectors": [
+      "FTzItemGuidSelector"
+    ]
+  },
+  "CovenantBattalionInfo": {
+    "MemberInfos": {
+      "q": "FTzBattalionMemberInfo"
+    }
+  },
+  "NavMeshTileCheckRequest": {
+    "CheckRequestedTiles": [
+      "FTzNavMeshTileInfo"
+    ]
+  },
+  "RealmInfoListResponse": {
+    "AppliedRealmAccountGuids": [
+      "q"
+    ]
+  },
+  "StrongholdBattleAttackInfo": {
+    "TargetBuildingSpawnerCuids": {
+      "ETzStrongholdBattleAttackPhaseType": "I"
+    }
+  },
+  "CovenantWatchSynchronizeNotify": {
+    "TargetPlayerGuidToCreateDateTimes": {
+      "q": "IQ"
+    }
+  },
+  "PlayerFollowerInfo": {
+    "FollowerCollectionInfos": {
+      "I": "FTzFollowerCollectionInfo"
+    }
+  },
+  "PlayerFavorInfo": {
+    "ActiveFavorDatabaseInfos": {
+      "Iq": "FTzFavorDatabaseInfo"
+    }
+  },
+  "AutoBuySettingsInfo": {
+    "Settings": {
+      "I": "i"
+    }
+  },
+  "CovenantRecommendResourceKindFailResponse": {
+    "RecommendedResourceKinds": [
+      "ETzResourceKindType"
+    ]
+  },
+  "ContaminationInfo": {
+    "ContaminationNaturalDecreaseInfos": {
+      "ETzContaminationNaturalDecreaseType": "i"
+    }
+  },
+  "StrongholdSettleAccountInfo": {
+    "GoldHistoryInfos": {
+      "IQ": "FTzGoldHistoryInfo"
+    }
+  },
+  "HavenOrganizationStatsDetailInfo": {
+    "Stats": {
+      "ETzHavenOrganizationStatSourceType": {
+        "I": "i"
+      }
+    }
+  },
+  "FollowerCollectionUpdateNotify": {
+    "CollectionInfos": {
+      "I": "FTzFollowerCollectionInfo"
+    }
+  },
+  "UpdateLastViewedChatRecordsIndexRequest": {
+    "ChatRecordsIndices": [
+      "FTzChatRecordsIndex"
+    ]
+  },
+  "RealmAccountRealmTransferLimitedItemCountResponse": {
+    "NonUsableItemCountByItemGradeAndNonUsableItemKind": {
+      "ETzNonUsableItemKindType": {
+        "ETzItemGradeType": "q"
+      }
+    }
+  },
+  "CheatAcquireAndSetToSquadFollowerResponse": {
+    "FollowerSquadSlots": {
+      "B": "q"
+    }
+  },
+  "RealmIntegrationSelectRealmAccountResponse": {
+    "RealmIntegrationRealmAccountInfos": [
+      "FTzRealmIntegrationRealmAccountInfo"
+    ]
+  },
+  "ChatOptionInfo": {
+    "ChatMacros": {
+      "i": "s"
+    }
+  },
+  "GearSlotPresetModifyRequest": {
+    "UnequipGearSlots": [
+      "ETzGearSlotType"
+    ]
+  },
+  "NpcSpeechBalloonTextFormatInfo": {
+    "TextFormatParameters": [
+      "s"
+    ]
+  },
+  "AutoDonateSettingOptionInfo": {
+    "ItemFilterCuidToItemGrade": {
+      "I": "ETzItemGradeType"
+    }
+  },
+  "AllRealmInfoPubSubChannelUpdateDataNotify": {
+    "RealmStateInfos": [
+      "msg"
+    ]
+  },
+  "TutorialsInfo": {
+    "CompletedTutorialCuids": [
+      "I"
+    ]
+  },
+  "GearSlotPresetModifyResponse": {
+    "UnequipGearSlots": [
+      "ETzGearSlotType"
+    ]
+  },
+  "CheatRemoveAllWorldMapMarkerResponse": {
+    "RemovedGuids": [
+      "q"
+    ]
+  },
+  "PlayerStrongholdBattleStatisticsInfo": {
+    "SkillUseStatisticsNxLogInfos": [
+      "FTzPlayerSkillUseStatisticsNxLogInfo"
+    ]
+  },
+  "QueryChatRoomRecordsInitializationInfoResponse": {
+    "ChatRoomRecordsInitializationInfos": [
+      "FTzChatRoomRecordsInitializationInfo"
+    ]
+  },
+  "CovenantRubyShopBuyRequest": {
+    "MerchandiseBuyInfos": {
+      "I": "q"
+    }
+  },
+  "CheatCreateAndEquipGearsResponse": {
+    "UnequipGearSlots": [
+      "ETzGearSlotType"
+    ]
+  },
+  "CashShopRefundableMerchandiseStorageBoxInfo": {
+    "SlotInfos": [
+      "FTzCashShopRefundableMerchandiseStorageBoxSlotInfo0"
+    ]
+  },
+  "StrongholdBattleSummaryInfo": {
+    "StrongholdBattleJoinedCovenantInfos": [
+      "FTzStrongholdBattleJoinedCovenantInfo"
+    ]
+  },
+  "AnniversaryInfo": {
+    "AnniversaryStrongholdOccupationCovenantInfos": {
+      "I": "FTzAnniversaryStrongholdOccupationCovenantInfo"
+    }
+  },
+  "ChatRoomListUpdateNotify": {
+    "DeletedChatRoomGuids": [
+      "q"
+    ]
+  },
+  "RewardInfo": {
+    "AnniversaryRewardCuidToAmount": {
+      "I": "q"
+    }
+  },
+  "CheatEnchantItemRequest": {
+    "GearEnchantSlotInfos": [
+      "FTzGearEnchantSlotInfo"
+    ]
+  },
+  "CheatAcquireAllUsableSkillsResponse": {
+    "AcquiredSkillCuids": [
+      "I"
+    ]
+  },
+  "CovenantGoodsRegistrationManagementModeCommandResponse": {
+    "RegisteredGoodsList": [
+      "FTzRegisteredGoodsInfo"
+    ]
+  },
+  "TargetScanShareRequest": {
+    "ScannedTargetGuids": {
+      "i": "q"
+    }
+  },
+  "CovenantWatchInfo": {
+    "CovenantWatchKillingInfos": [
+      "FTzCovenantWatchKillingInfo"
+    ]
+  },
+  "RealmAccountPresentQueryResponse": {
+    "RealmAccountPresentInfos": [
+      "FTzRealmAccountPresentSummaryInfo"
+    ]
+  },
+  "ExpeditionInfo": {
+    "JoinedBattalionCovenantGuids": {
+      "q": "q"
+    }
+  },
+  "CheatTestGearEnchantOptionGradeResponse": {
+    "UpgradeCountsByEnchantSlot": {
+      "h": "i"
+    }
+  },
+  "CovenantDiplomacyInviteReinforcementRequest": {
+    "RewardCurrencies": {
+      "I": "q"
+    }
+  },
+  "CovenantSynchronizeMemberRefreshedContributionInfosNotify": {
+    "CovenantMemberContributionInfos": [
+      "FTzCovenantMemberContributionInfo"
+    ]
+  },
+  "PowerSavingModeRewardInfo": {
+    "GainedItemInfos": [
+      "FTzGainedItemInfo"
+    ]
+  },
+  "CovenantRealmTransferRegisterRequest": {
+    "PlayerGuidList": [
+      "q"
+    ]
+  },
+  "PlayerSkillAcquireResponse": {
+    "AutoUseRootSkillCuids": [
+      "I"
+    ]
+  },
+  "StackableItemMultipleUseResponse": {
+    "AmityDelta": {
+      "I": "q"
+    }
+  },
+  "ItemAcquireNotify": {
+    "ItemIndices": [
+      "FTzItemIndex0"
+    ]
+  },
+  "CovenantWatchDetailInfo": {
+    "CovenantWatchKillingInfos": [
+      "FTzCovenantWatchKillingInfo"
+    ]
+  },
+  "CovenantDiplomacySummaryInfo": {
+    "HostilityCovenantGuids": [
+      "q"
+    ]
+  },
+  "CovenantLivingTotemStatsInfoQueryResponse": {
+    "LivingTotemStatsInfos": [
+      "FTzCovenantLivingTotemWithStatsInfo"
+    ]
+  },
+  "AnniversaryAchievementInfo": {
+    "MissionProgressCounts": [
+      "q"
+    ]
+  },
+  "CovenantSynchronizeMemberContributionInfoNotify": {
+    "CovenantMemberContributionInfos": [
+      "FTzCovenantMemberContributionInfo"
+    ]
+  },
+  "MonsterBookInfoUpdateNotify": {
+    "CategoryCuidToCollectionInfo": {
+      "I": "FTzMonsterBookCollectionInfo"
+    }
+  },
+  "LootNotify": {
+    "Amity": {
+      "I": "q"
+    }
+  },
+  "RealmIntegrationBattleResultInitialDataNotify": {
+    "RealmResults": [
+      "msg"
+    ]
+  },
+  "SpellstoneAdditionalBuffStatsInfo": {
+    "ProtectHealthPointsSettingStatKindByStatKind": {
+      "ETzAdjustableStatKindType": "f"
+    }
+  },
+  "TargetScanShareNotify": {
+    "ScannedTargetInfos": {
+      "i": "FTzSharedTargetCharacterInfo"
+    }
+  },
+  "SpellstoneAdditionalInfo": {
+    "SubOptionCuids": [
+      "I"
+    ]
+  },
+  "MailAttachmentsInfo": {
+    "Currencies": [
+      "FTzMailAttachmentCurrencyInfo"
+    ]
+  },
+  "RealmAccountWarehouseItemRetrieveRequest": {
+    "ItemGuidSelectors": [
+      "FTzItemGuidSelector"
+    ]
+  },
+  "ExpeditionInitialDataNotify": {
+    "ExpeditionSummaryInfos": {
+      "q": "FTzExpeditionSummaryInfo0"
+    }
+  },
+  "PlayerCampaignInfo": {
+    "CampaignTicketInfos": {
+      "I": "msg"
+    }
+  },
+  "FollowerMovePathInfo": {
+    "PathFromLastRoadJunctionToDestination": [
+      "3f"
+    ]
+  },
+  "ShopCashMerchandiseReceiveResponse": {
+    "ReceiveGuidList": [
+      "q"
+    ]
+  },
+  "ErFrontServerSessionReinitializeInfo": {
+    "PlayerSummaryInfos": {
+      "q": "FTzPlayerSummaryInfo"
+    }
+  },
+  "PartySummaryInfo": {
+    "TargetLocationInfos": [
+      "FTzTargetLocationInfo"
+    ]
+  },
+  "CovenantCampaignInfo": {
+    "ActiveCampaignProgressInfos": {
+      "I": [
+        "I"
+      ]
+    }
+  },
+  "CovenantBattalionExpeditionFailNotify": {
+    "GainedItemInfos": [
+      "FTzGainedItemInfo"
+    ]
+  },
+  "SkillStageInfo": {
+    "SkillTargetingInfos": [
+      "FTzSkillTargetingInfo"
+    ]
+  },
+  "CovenantSupportApplyResponse": {
+    "CovenantSupportedFollowerGuids": [
+      "q"
+    ]
+  },
+  "MonsterBookInfo": {
+    "CategoryCuidToAnalysisStatChangeInfos": {
+      "I": [
+        "FTzCharacterStatChangeInfo0"
+      ]
+    }
+  },
+  "PartyQuerySummaryInfoListResponse": {
+    "PartySummaryInfoList": [
+      "FTzPartySummaryInfo"
+    ]
+  },
+  "StrongholdBuildingAccessPermissionNotify": {
+    "BuildingSubscriptionInfos": {
+      "I": "FTzBuildingSubscriptionInfo0"
+    }
+  },
+  "ReceivedRewardInfo": {
+    "Amity": {
+      "I": "q"
+    }
+  },
+  "BuffStatsInfo": {
+    "CharacterStatChanges": [
+      "FTzCharacterStatChangeInfo"
+    ]
+  },
+  "ContentsUnlockInitializeNotify": {
+    "UnusedContentsUnlockKinds": {
+      "ETzContentsUnlockKindType": "?"
+    }
+  },
+  "ErFrontServerSessionInitializeInfoNotify": {
+    "RealmIntegrationRealmAccountInfos": [
+      "FTzRealmIntegrationRealmAccountInfo"
+    ]
+  },
+  "FollowerCollectionInfo": {
+    "CollectionStatus": {
+      "I": "FTzFollowerCollectionTopExperienceInfo"
+    }
+  },
+  "MarketStrongholdTaxInfoResponse": {
+    "MarketStrongholdTaxInfos": [
+      "FTzMarketStrongholdTaxInfo0"
+    ]
+  },
+  "ReinforcementInfo": {
+    "RewardCurrencies": {
+      "I": "q"
+    }
+  },
+  "ArquiAttunementInfo": {
+    "AetherOptionLevelByCategoryCuidAndOptionCuid": {
+      "I": {
+        "I": "i"
+      }
+    }
+  },
+  "ExpeditionNpcSummonWaveInfo": {
+    "NpcDeathCounts": {
+      "I": "i"
+    }
+  },
+  "MailsReceiveAttachmentsInTabResponse": {
+    "ReceivedMailGuids": [
+      "q"
+    ]
+  },
+  "CovenantWatchDetailInfoQueryResponse": {
+    "CovenantWatchDetailInfos": [
+      "FTzCovenantWatchDetailInfo"
+    ]
+  },
+  "PlayerMarketSaleGoodsListResponse": {
+    "MarketSellerGoodsInfos": [
+      "FTzMarketSellerGoodsInfo"
+    ]
+  },
+  "RealmIntegrationQueryRealmAccountInfoResponse": {
+    "RealmIntegrationRealmAccountInfos": [
+      "FTzRealmIntegrationRealmAccountInfo"
+    ]
+  },
+  "CovenantCurrencyInfo": {
+    "PointCurrencyContainerInfo": {
+      "I": "q"
+    }
+  },
+  "CovenantInfo": {
+    "CovenantOutLinkInfos": {
+      "ETzCovenantOutLinkKindType": "FTzCovenantOutLinkInfo0"
+    }
+  },
+  "TlsLikeEncryptPremasterSecret": {
+    "PremasterSecret": [
+      "B"
+    ]
+  },
+  "NpcOccupationViewInfo": {
+    "NpcOccupationScoreCovenantViewInfos": {
+      "q": "FTzNpcOccupationScoreCovenantViewInfo0"
+    }
+  },
+  "CovenantSearchInfo": {
+    "OccupiedStrongholdCuids": [
+      "I"
+    ]
+  },
+  "CovenantSupportApplyRequest": {
+    "FollowerGuids": [
+      "q"
+    ]
+  },
+  "PlayerStanceInfo": {
+    "AcquiredStances": [
+      "ETzStanceType"
+    ]
+  },
+  "OccupiableNpcInfoBulkUpdateNotify": {
+    "OccupiableNpcInfos": [
+      "FTzOccupiableNpcInfo0"
+    ]
+  },
+  "FollowerMovePathInfoResponse": {
+    "MovePathInfos": {
+      "q": "FTzFollowerMovePathInfo"
+    }
+  },
+  "CheatClearGearResponse": {
+    "UnequipGearSlots": {
+      "ETzEquipmentPresetIndexType": [
+        "ETzGearSlotType"
+      ]
+    }
+  },
+  "InGameNotificationDeleteCategoryNotify": {
+    "DeletedGuids": [
+      "q"
+    ]
+  },
+  "DiplomacyChatCovenantSummaryInfoUpdateNotify": {
+    "DiplomacyChatCovenantSummaryInfos": [
+      "FTzDiplomacyChatCovenantSummaryInfo"
+    ]
+  },
+  "CovenantQueryJoinAppliedCovenantSummaryInfoListResponse": {
+    "CovenantSummaryInfos": [
+      "FTzCovenantSummaryInfo"
+    ]
+  },
+  "MonsterBookNodeAcquirableStateInfo": {
+    "NpcCuidToKillCount": {
+      "I": "i"
+    }
+  },
+  "RealmIntegrationRealmAccountInfo": {
+    "PlayerInfos": [
+      "FTzRealmIntegrationPlayerInfo0"
+    ]
+  },
+  "ShopRegisteredGoodsUpdateNotify": {
+    "RegisteredGoodsInfos": {
+      "q": "FTzRegisteredGoodsInfo"
+    }
+  },
+  "ResourceHistoryInfo": {
+    "ExpenseHistories": {
+      "ETzResourceKindType": {
+        "ETzResourceExpenseKindType": "q"
+      }
+    }
+  },
+  "CspSupporterInfo": {
+    "ChannelInfos": [
+      "FTzCspChannelInfo"
+    ]
+  },
+  "CovenantTradeCategoryQueryResponse": {
+    "CategoryItemInfos": [
+      "FTzCovenantTradeCategoryItemInfo"
+    ]
+  },
+  "CraftRequest": {
+    "MaterialCuidToItemSelectors": {
+      "I": [
+        "FTzItemSelector"
+      ]
+    }
+  },
+  "CovenantJoinedStrongholdBattleInfoAddNotify": {
+    "JoinedStrongholdBattleInfos": [
+      "FTzCovenantJoinedStrongholdBattleInfo"
+    ]
+  },
+  "MailUnreadNotify": {
+    "UnreadCounts": {
+      "ETzMailTabType": "i"
+    }
+  },
+  "GearMultipleEnhanceResponse": {
+    "GearEnhancementResultInfos": [
+      "FTzGearEnhancementResultInfo"
+    ]
+  },
+  "InGameNotificationInfo": {
+    "AdditionalCuidParams": [
+      "I"
+    ]
+  },
+  "CrossRealmCovenantSearchResponse": {
+    "CovenantSearchInfos": [
+      "FTzCovenantSearchInfo0"
+    ]
+  },
+  "SeasonPassLevelRewardParameter": {
+    "RewardedLevels": {
+      "I": [
+        "i"
+      ]
+    }
+  },
+  "CovenantUpdateCovenantPermissionsInfosResponse": {
+    "CovenantPermissionsInfos": {
+      "s": "FTzCovenantPermissionsInfo"
+    }
+  },
+  "CovenantBattalionExpeditionCompleteNotify": {
+    "GainedItemInfos": [
+      "FTzGainedItemInfo"
+    ]
+  },
+  "CheatGetEnvironmentVariablesResponse": {
+    "Variables": {
+      "s": "s"
+    }
+  },
+  "CheatTestGearEnchantGradeResponse": {
+    "UpgradeCounts": {
+      "ETzGearEnchantGradeType": "i"
+    }
+  },
+  "StrongholdBattleAttackSpireStartNotify": {
+    "BattalionMemberStatisticsInfos": [
+      "FTzStrongholdBattleCovenantBattalionMemberStatisticsInfo"
+    ]
+  },
+  "StrongholdBattleUseSiegeWeaponSlotNotify": {
+    "SiegeWeaponCounts": {
+      "I": "q"
+    }
+  },
+  "ServerDrivenPlayRecordsInfo": {
+    "ConsumedAffectItems": {
+      "ETzAffectItemKindType": "q"
+    }
+  },
+  "MarketRecommendedItemQueryResponse": {
+    "RecommendedCoreMaterialCuidByGearKind": {
+      "ETzGearKindType": "I"
+    }
+  },
+  "HavenOperationInfo": {
+    "RecommendedResourceKinds": [
+      "ETzResourceKindType"
+    ]
+  },
+  "AttackerListNotify": {
+    "AttackerPlayerGuids": [
+      "q"
+    ]
+  },
+  "MarketSettlementInfo": {
+    "StrongholdSettlementInfos": {
+      "I": "FTzSettlementInfo"
+    }
+  },
+  "InventoryOverflowInfo": {
+    "OverflowedItemInfoList": [
+      "FTzItemInfo"
+    ]
+  },
+  "ContentsUnlockNotify": {
+    "ContentsUnlockKinds": [
+      "ETzContentsUnlockKindType"
+    ]
+  },
+  "CovenantRealmTransferCheckInfo": {
+    "CovenantTradeGoodsSalesInfos": [
+      "FTzCovenantTradeGoodsSalesInfo"
+    ]
+  },
+  "StrongholdSummonWaveDefenseInfo": {
+    "CurrentWaveNpcKnockOutProgress": {
+      "I": "i"
+    }
+  },
+  "ExpeditionJoinedBattalionsInitialDataNotify": {
+    "ExpeditionJoinedBattalionList": [
+      "msg"
+    ]
+  },
+  "OccupiableNpcSummaryInitialDataNotify": {
+    "OccupiableNpcSummaryInfos": {
+      "I": "msg"
+    }
+  },
+  "PlayerItemUseNotify": {
+    "AmityDelta": {
+      "I": "q"
+    }
+  },
+  "StrategicObjectiveInfo": {
+    "SquadOrderList": [
+      "i"
+    ]
+  },
+  "PartyMemberLootNotify": {
+    "ItemIndexWithCounts": [
+      "FTzItemIndexWithCount"
+    ]
+  },
+  "CovenantCompleteCampaignNotify": {
+    "GainedItemInfos": [
+      "FTzGainedItemInfo"
+    ]
+  },
+  "ItemTransmuteResponse": {
+    "ItemTransmutationResultInfos": [
+      "FTzItemTransmutationResultInfo"
+    ]
+  },
+  "AnniversaryRecordHistoryQueryResponse": {
+    "AnniversaryRecordHistoryInfos": [
+      "FTzAnniversaryRecordHistoryInfo"
+    ]
+  },
+  "MarketFavoriteItemInfoQueryResponse": {
+    "MarketFavoriteItemInfosNotOnSale": [
+      "FTzMarketFavoriteItemInfo"
+    ]
+  },
+  "CovenantAddInvitationsNotify": {
+    "CovenantInvitationInfos": [
+      "FTzCovenantInvitationInfo"
+    ]
+  },
+  "GearBatchCraftResponse": {
+    "CraftCountInfos": {
+      "I": "FTzCraftCountInfo"
+    }
+  },
+  "CovenantRubyShopInitialDataNotify": {
+    "ShopMerchandiseInfos": {
+      "I": [
+        "FTzCovenantRubyShopMerchandiseInfo0"
+      ]
+    }
+  },
+  "ItemUpdateInfo": {
+    "RemovedItemCuids": [
+      "I"
+    ]
+  },
+  "CovenantDonationRequest": {
+    "ItemGuidSelectors": [
+      "FTzItemGuidSelector"
+    ]
+  },
+  "CheatCollectionUpdateNotify": {
+    "CollectionProgressInfos": {
+      "I": "FTzCollectionProgressInfo0"
+    }
+  },
+  "SkillAutoUseInfoUpdateNotify": {
+    "RootSkillCuids": [
+      "I"
+    ]
+  },
+  "PartyInfo": {
+    "TargetLocationInfos": [
+      "FTzTargetLocationInfo"
+    ]
+  },
+  "QuestProgressInfo": {
+    "QuestMissionProgressInfos": {
+      "Iq": "FTzQuestMissionProgressInfo0"
+    }
+  },
+  "RealmAccountWarehouseAutoStoreSettingUpdateRequest": {
+    "AutoStoreSettings": {
+      "I": "ETzItemGradeType"
+    }
+  },
+  "SeasonPassAchievementInitializeDataNotify": {
+    "SeasonPassAchievementInfos": [
+      "FTzSeasonPassAchievementInfo"
+    ]
+  },
+  "CheatCreateAndEquipGearResponse": {
+    "UnequipGearSlots": [
+      "ETzGearSlotType"
+    ]
+  },
+  "BulkCharacterMoveNotify": {
+    "CharacterMoveInfos": {
+      "q": [
+        "FTzCharacterMoveInfo"
+      ]
+    }
+  },
+  "CovenantSettleAccountInfoQueryResponse": {
+    "StrongholdSettleAccountInfos": {
+      "I": "FTzStrongholdSettleAccountInfo"
+    }
+  },
+  "FindShortestTravelPathResponse": {
+    "PathNotByRoadOneShotSpecialMoveIndices": [
+      "i"
+    ]
+  },
+  "FavorMissionDatabaseInfo": {
+    "TargetCuidList": [
+      "I"
+    ]
+  },
+  "FollowerDispatchOverallInfoSynchronizeNotify": {
+    "DispatchOverallInfos": {
+      "q": "FTzFollowerDispatchOverallInfo"
+    }
+  },
+  "BattalionQueryMemberCandidateListResponse": {
+    "BattalionMemberCandidateList": [
+      "FTzBattalionMemberSummaryInfo"
+    ]
+  },
+  "MailBuildingCraftLayoutInfo": {
+    "CraftItemIndexWithCounts": [
+      "FTzItemIndexWithCount"
+    ]
+  },
+  "StrongholdBuildingQueryInfosResponse": {
+    "BuildingInfoList": [
+      "FTzBuildingInfo"
+    ]
+  },
+  "CovenantSummaryInfo": {
+    "OccupiedStrongholdCuids": [
+      "I"
+    ]
+  },
+  "RegionContentPlayInfoNotify": {
+    "RegionPlayTimeInfos": {
+      "ETzRegionContentKindType": "FTzRegionContentPlayInfo"
+    }
+  },
+  "RealmIntegrationBattleResultUpdateDataNotify": {
+    "RealmResults": [
+      "msg"
+    ]
+  },
+  "BattalionInfo": {
+    "MemberInfos": {
+      "q": "FTzBattalionMemberInfo"
+    }
+  },
+  "StrongholdCampaignBattleInfo": {
+    "CampaignConditionProgressInfos": {
+      "I": "FTzCampaignConditionProgressInfo"
+    }
+  },
+  "CovenantSynchronizeHighestUpgradedBuildingLevelInfosNotify": {
+    "CovenantHighestUpgradedBuildingLevelInfos": {
+      "I": "i"
+    }
+  },
+  "ItemAutoUseInfoUpdateNotify": {
+    "ItemCuids": [
+      "I"
+    ]
+  },
+  "CovenantSynchronizeMemberInfosResponse": {
+    "CovenantMemberInfos": {
+      "q": "FTzCovenantMemberInfo0"
+    }
+  },
+  "ItemTransmuteRequest": {
+    "ItemGuids": [
+      "q"
+    ]
+  },
+  "CheatTestGearEnchantOptionRequest": {
+    "GearEnchantOptionGrades": {
+      "h": "ETzGearEnchantGradeType"
+    }
+  },
+  "FindRoadPathResultInfo": {
+    "PathNodeInfosFromLastRoadJunctionInfoToDestination": [
+      "FTzPathNodeInfo"
+    ]
+  },
+  "CheatClearSkillSlotQuickSlotAutoUseResponse": {
+    "AppliedPlayerSkillSlots": [
+      "FTzPlayerSkillSlotUpdateInfo"
+    ]
+  },
+  "GatheringSiteInfo": {
+    "GatheringFollowerWorkInfos": {
+      "q": "FTzFollowerWorkOverallInfo"
+    }
+  },
+  "RealmTransferRealmInfoListResponse": {
+    "AppliedRealmAccountGuids": [
+      "q"
+    ]
+  },
+  "AlertPlayerRemoveNotify": {
+    "DeletedPlayerGuids": [
+      "q"
+    ]
+  },
+  "ClanSponsorRequest": {
+    "ItemGuidSelectors": [
+      "FTzItemGuidSelector"
+    ]
+  },
+  "CovenantRewardInfo": {
+    "DiscardedIndexWithCounts": [
+      "FTzItemIndexWithCount"
+    ]
+  },
+  "TlsLikeEncryptServerHello": {
+    "Modulus": [
+      "B"
+    ]
+  },
+  "CovenantJoinNotify": {
+    "CovenantBattalionInfos": {
+      "q": "FTzCovenantBattalionNotifyInfo"
+    }
+  },
+  "CovenantUpdateCovenantPermissionsInfosNotify": {
+    "CovenantPermissionsInfos": {
+      "s": "FTzCovenantPermissionsInfo"
+    }
+  },
+  "TozTcpHello": {
+    "UserData": [
+      "B"
+    ]
+  },
+  "PlayerEquipmentInfo": {
+    "EquipmentPresetInfos": {
+      "ETzEquipmentPresetIndexType": "msg"
+    }
+  },
+  "SquadInfo": {
+    "TargetLocationInfos": [
+      "FTzTargetLocationInfo"
+    ]
+  },
+  "CheatAnniversaryAchievementAccomplishRequest": {
+    "MissionProgressCounts": [
+      "q"
+    ]
+  },
+  "InventoryUpdateInfo": {
+    "StackableItemUpdateInfoList": [
+      "FTzStackableItemUpdateInfo"
+    ]
+  },
+  "NavMeshTileDataRequest": {
+    "CheckRequestedTiles": [
+      "FTzNavMeshTileInfo"
+    ]
+  },
+  "CheatMonsterBookSetAcquisitionProgressResponse": {
+    "AnalysisStatChangeInfos": [
+      "FTzCharacterStatChangeInfo"
+    ]
+  },
+  "PlayerSkillSlotSetInfo": {
+    "PlayerSkillSlotInfos": {
+      "ETzPlayerSkillSlotIndexType": "FTzPlayerSkillSlotInfo0"
+    }
+  },
+  "NpcInfo": {
+    "AttackerPlayerGuids": [
+      "q"
+    ]
+  },
+  "MailStrongholdBattleEndResultLogLayoutInfo": {
+    "StrongholdBattleJoinedCovenantHistoryInfos": [
+      "FTzStrongholdBattleJoinedCovenantHistoryInfo"
+    ]
+  },
+  "StrongholdBattleAttackLadderCarSiegeWeaponSlotInfo": {
+    "LadderCarPillarNpcGuids": [
+      "q"
+    ]
+  },
+  "PlayerRealmIntegrationBattleInfo": {
+    "SeasonInfos": {
+      "I": "FTzPlayerRealmIntegrationBattleSeasonInfo0"
+    }
+  },
+  "AnniversaryPointRankingRecordQueryResponse": {
+    "CovenantMemberAnniversaryPointInfos": [
+      "msg"
+    ]
+  },
+  "CovenantRubyShopInfo": {
+    "BuyCountInfos": [
+      "FTzGoodsBuyCountInfo"
+    ]
+  },
+  "EnvironmentVariablesNotify": {
+    "Variables": {
+      "s": "s"
+    }
+  },
+  "CovenantReinforcementInfoSynchronizeNotify": {
+    "ReceivedReinforcementInfos": [
+      "FTzReinforcementInfo"
+    ]
+  },
+  "ThreatPointsNotify": {
+    "ThreatPoints": {
+      "q": "q"
+    }
+  },
+  "PartyQueryMemberCandidateListResponse": {
+    "PartyMemberCandidateList": [
+      "FTzPartyMemberCoreInfo"
+    ]
+  },
+  "SeasonPassQueryResponse": {
+    "SeasonPassAchievementInfos": [
+      "FTzSeasonPassAchievementInfo"
+    ]
+  },
+  "CovenantGiftReceiveResponse": {
+    "ReceiveGiftInfos": [
+      "FTzCovenantGiftReceiveInfo"
+    ]
+  },
+  "DataTable": {
+    "Rows": [
+      "s"
+    ]
+  },
+  "CheatApplySkillSlotQuickSlotAutoUsePresetResponse": {
+    "AppliedPlayerSkillSlots": [
+      "FTzPlayerSkillSlotUpdateInfo"
+    ]
+  },
+  "FavorRefreshResponse": {
+    "FavorMissionList": [
+      "FTzFavorMissionInfo"
+    ]
+  },
+  "SpellstoneSlotPageInfo": {
+    "SpellstoneSlotInfos": {
+      "q": "FTzSpellstoneSlotInfo"
+    }
+  },
+  "CrossRealmCovenantQuerySummaryInfoListRequest": {
+    "CovenantGuidRealmCuidList": {
+      "q": "I"
+    }
+  },
+  "StrongholdBattleAttackOuterGateStartNotify": {
+    "BattalionMemberStatisticsInfos": [
+      "FTzStrongholdBattleCovenantBattalionMemberStatisticsInfo0"
+    ]
+  },
+  "CharacterInfo": {
+    "ParticipatingContentsGuids": [
+      "q"
+    ]
+  },
+  "DiplomacyChatRoomKickCovenantsRequest": {
+    "CovenantGuids": [
+      "q"
+    ]
+  },
+  "RedrawableItemInventoryInfo": {
+    "RedrawableItemInfos": [
+      "FTzRedrawableItemInfo"
+    ]
+  },
+  "DeathPenaltyDeleteRequest": {
+    "DeathPenaltyRecordGuids": [
+      "q"
+    ]
+  },
+  "FollowerSquadUpdateResponse": {
+    "FollowerSquadSlots": {
+      "B": "q"
+    }
+  },
+  "BoundAndErodedInheritanceBatchCraftRequest": {
+    "MaterialGroupOrderList": [
+      "I"
+    ]
+  },
+  "PointCurrencyContainerOverflowInfo": {
+    "CuidToOverflowCount": {
+      "I": "q"
+    }
+  },
+  "PlayerInfo": {
+    "ParticipatingContentsGuids": [
+      "q"
+    ]
+  },
+  "ShopAutoBuySettingUpdateRequest": {
+    "AutoBuyInfos": [
+      "FTzAutoBuyInfo"
+    ]
+  },
+  "CheatMonsterBookSetNodeLevelResponse": {
+    "AnalysisStatChangeInfos": [
+      "FTzCharacterStatChangeInfo"
+    ]
+  },
+  "PaidAttendanceInfosUpdateNotify": {
+    "PaidAttendanceInfos": [
+      "FTzPaidAttendanceInfo"
+    ]
+  },
+  "ShopShoppingModeCommandResponse": {
+    "AutoBuySettings": [
+      "msg"
+    ]
+  },
+  "CovenantOrganizationStatsDetailInfo": {
+    "Stats": {
+      "ETzCovenantOrganizationStatSourceType": {
+        "I": "i"
+      }
+    }
+  },
+  "PlayerInitializeInfoNotify": {
+    "ContentsActivationFlags": [
+      "?"
+    ]
+  },
+  "CrossRealmSeasonInfo": {
+    "MatchedRealmCuids": [
+      "I"
+    ]
+  },
+  "ShopCashMerchandiseUpdateRealmTotalBuyCountInfoNotify": {
+    "UpdatedRealmTotalMerchandiseBuyCountInfoList": [
+      "FTzMerchandiseBuyCountInfo0"
+    ]
+  },
+  "DeathPenaltyRecoverRequest": {
+    "DeathPenaltyRecordGuids": [
+      "q"
+    ]
+  },
+  "FavorSummaryInfoQueryResponse": {
+    "FavorBossInfosByDistrictCuid": {
+      "I": "FTzDistrictFavorBossInfo"
+    }
+  },
+  "CachedMessages": {
+    "Container": {
+      "i": "msg"
+    }
+  },
+  "StrongholdSummonWaveDefenseNpcSummonWaveProgressSynchronizeNotify": {
+    "CurrentWaveNpcKnockOutProgress": {
+      "I": "i"
+    }
+  },
+  "PlayerLimitedCounterInfo": {
+    "LimitedCountingInfos": {
+      "ETzPlayerLimitedCountingKindType": "FTzLimitedCountingInfo"
+    }
+  },
+  "EntityRemoveBulkNotify": {
+    "EntityGuids": [
+      "q"
+    ]
+  },
+  "CovenantHistoryQueryResponse": {
+    "CovenantHistoryInfos": [
+      "FTzCovenantHistoryInfo"
+    ]
+  },
+  "CrossRealmCovenantQuerySummaryInfoListResponse": {
+    "CovenantSummaryInfos": [
+      "FTzCovenantSummaryInfo"
+    ]
+  },
+  "CovenantSearchResponse": {
+    "CovenantSearchInfos": [
+      "FTzCovenantSearchInfo"
+    ]
+  },
+  "UniverseAccountRealmAccountInfo": {
+    "UniverseAccountPlayerInfos": [
+      "FTzUniverseAccountPlayerInfo"
+    ]
+  },
+  "CovenantBattalionExpeditionJoinNotify": {
+    "AnotherBattalionGuids": [
+      "q"
+    ]
+  },
+  "OrganizationStatsInfo": {
+    "Stats": {
+      "FTzOrganizationStatPrimaryKey": "i"
+    }
+  },
+  "IntraRegionPathResultInfo": {
+    "PathNotByRoadOneShotSpecialMoveIndices": [
+      "i"
+    ]
+  },
+  "CovenantGiftSynchronizeNotify": {
+    "UpdateGiftBoxInfos": [
+      "FTzCovenantGiftBoxInfo0"
+    ]
+  },
+  "StrongholdInitialDataNotify": {
+    "BuildingSubscriptionInfos": [
+      "FTzBuildingSubscriptionInfo0"
+    ]
+  },
+  "CovenantTradeSalesListQueryResponse": {
+    "GoodsSalesInfos": [
+      "FTzCovenantTradeGoodsSalesInfo"
+    ]
+  },
+  "AnniversaryStrongholdOccupationCovenantInfo": {
+    "AttackGroupInfos": [
+      "FTzCovenantDisplayInfo"
+    ]
+  },
+  "CheatClearFollowerResponse": {
+    "CollectionInfos": {
+      "I": "FTzFollowerCollectionInfo0"
+    }
+  },
+  "TerritoryErosionInitialDataNotify": {
+    "ErosionInfos": [
+      "FTzErosionInfo0"
+    ]
+  },
+  "PrivateChatRoomRecordsInitializationInfo": {
+    "ChatMessageInfos": [
+      "msg"
+    ]
+  },
+  "RealmAccountRealmTransferCheckInfoResponse": {
+    "PlayerCheckInfos": {
+      "q": "FTzPlayerRealmTransferCheckInfo"
+    }
+  },
+  "StrongholdBattleCovenantBattalionInfo": {
+    "MemberStatisticsInfos": {
+      "q": "FTzStrongholdBattleCovenantBattalionMemberStatisticsInfo0"
+    }
+  },
+  "NavMeshTileInfo": {
+    "LayerInfos": [
+      "FTzNavMeshTileLayerInfo"
+    ]
+  },
+  "CovenantResearchResetNotify": {
+    "CovenantResearchInfos": {
+      "I": "FTzCovenantResearchInfo"
+    }
+  },
+  "CheatDeregisterCheatEnabledPlayerNameResponse": {
+    "CheatEnabledPlayerNames": [
+      "s"
+    ]
+  },
+  "MarketSellSettleResponse": {
+    "IsSuccessByGoodsGuids": {
+      "q": "?"
+    }
+  },
+  "CheatTestGearEnchantResponse": {
+    "GearEnchantPatternCuidToStatKindToAmountToCount": {
+      "I": {
+        "ETzAdjustableStatKindType": {
+          "f": "i"
+        }
+      }
+    }
+  },
+  "CheatMonsterBookSetAnalysisInfoResponse": {
+    "AnalysisStatChangeInfos": [
+      "FTzCharacterStatChangeInfo"
+    ]
+  },
+  "MarketGoodsInfoQueryResponse": {
+    "MarketGoodsInfos": [
+      "msg"
+    ]
+  },
+  "RealmAccountWarehouseItemStoreRequest": {
+    "ItemGuidSelectors": [
+      "FTzItemGuidSelector"
+    ]
+  },
+  "StrongholdBuildingUpdateBuildingAccessPermissionsRequest": {
+    "BuildingAccessPermissionKinds": {
+      "I": "I"
+    }
+  },
+  "FollowerMovePathInfoRequest": {
+    "FollowerGuids": [
+      "q"
+    ]
+  },
+  "CovenantGiftReceiveRequest": {
+    "ReceiveGiftGuids": [
+      "q"
+    ]
+  },
+  "StrongholdBattleOccupyAltarStartNotify": {
+    "BattalionMemberStatisticsInfos": [
+      "FTzStrongholdBattleCovenantBattalionMemberStatisticsInfo"
+    ]
+  },
+  "ItemExpireNotify": {
+    "ExpiredItemCuids": [
+      "I"
+    ]
+  },
+  "RoadJunctionDetailedInfo": {
+    "RoadLinks": [
+      "FTzRoadLinkInfo"
+    ]
+  },
+  "FollowerExperiencePointsItemConsumeRequest": {
+    "ItemGuidSelectors": [
+      "FTzItemGuidSelector"
+    ]
+  },
+  "BattalionCovenantGrantedSkillNotify": {
+    "CovenantGrantedSkillCuids": [
+      "I"
+    ]
+  },
+  "CrossRealmChatRoomRecordsInitializationInfo": {
+    "ChatMessageInfos": [
+      "FTzChatMessageInfo"
+    ]
+  },
+  "CheatResetCashShopMerchandiseBuyLimitCountResponse": {
+    "UpdatedMerchandiseBuyCountInfoList": [
+      "FTzMerchandiseBuyCountInfo"
+    ]
+  },
+  "CovenantBuildingWorkInitialDataNotify": {
+    "BuildingWorkInfos": {
+      "I": {
+        "I": "FTzBuildingWorkInfo0"
+      }
+    }
+  },
+  "PlayerSkillInfo": {
+    "ReplacementSkillCuidsByRootSkillCuid": {
+      "I": "I"
+    }
+  },
+  "CheatGetCheatEnabledPlayerNamesResponse": {
+    "CheatEnabledPlayerNames": [
+      "s"
+    ]
+  },
+  "ShopBuyResponse": {
+    "RegisterShopBuyFailItems": {
+      "q": "q"
+    }
+  },
+  "CrossRealmRankingQueryResponse": {
+    "RankingInfos": [
+      "msg"
+    ]
+  },
+  "MissionInfo": {
+    "RewardAcquiredDateTimes": {
+      "i": "IQ"
+    }
+  },
+  "CheatResetContentsUnlockResponse": {
+    "UnusedContentsUnlockKinds": [
+      "ETzContentsUnlockKindType"
+    ]
+  },
+  "StrongholdSummaryInitialDataNotify": {
+    "BuildingSubscriptionSummaryInfos": [
+      "FTzBuildingSubscriptionSummaryInfo0"
+    ]
+  },
+  "SeasonPassAchievementInfo": {
+    "MissionProgressCounts": [
+      "q"
+    ]
+  },
+  "MultipleHandshakeMessage": {
+    "HandshakeMessages": [
+      "msg"
+    ]
+  },
+  "CovenantGoodsRegistrationRegisteredGoodsInfoUpdateDataNotify": {
+    "RegisteredGoodsInfos": {
+      "q": "FTzRegisteredGoodsInfo0"
+    }
+  },
+  "RealmAccountPresentCheckResponse": {
+    "PlayersInfo": {
+      "s": [
+        "ETzClasseType",
+        "i"
+      ]
+    }
+  },
+  "CovenantCampInitialInfoNotify": {
+    "BuildingWorkInfoByWorkplaceCuid": {
+      "I": "FTzBuildingWorkInfo0"
+    }
+  },
+  "MailFollowerDeathLayoutInfo": {
+    "LootedRewardItemIndexWithCounts": [
+      "msg"
+    ]
+  },
+  "CheatUnlockAllContentsResponse": {
+    "UnusedContentsUnlockKinds": [
+      "ETzContentsUnlockKindType"
+    ]
+  },
+  "OccupiableNpcBossBattleRewardNotify": {
+    "ReceivedRewardInfos": [
+      "FTzReceivedRewardInfo"
+    ]
+  },
+  "CheatTestGearEnhancementResponse": {
+    "SuccessCounts": {
+      "h": "i"
+    }
+  },
+  "FavorMissionInfo": {
+    "TargetCuidList": [
+      "I"
+    ]
+  },
+  "CovenantTradeDealRecordQueryResponse": {
+    "GoodsDealInfo": [
+      "FTzCovenantTradeGoodsDealInfo"
+    ]
+  },
+  "DiplomacyChatRoomRecordsInitializationInfo": {
+    "DiplomacyChatCovenantSummaryInfos": {
+      "q": "FTzDiplomacyChatCovenantSummaryInfo0"
+    }
+  },
+  "AchievementInfo": {
+    "MissionProgressCounts": [
+      "q"
+    ]
+  },
+  "CovenantAssetMigrationInfo": {
+    "ItemIndexWithCounts": [
+      "msg"
+    ]
+  },
+  "RealmIntegrationBattleScoreInitializeDataNotify": {
+    "ScoreInfos": {
+      "I": "msg"
+    }
+  },
+  "AnniversaryRewardAcquireNotify": {
+    "AnniversaryPointsByAnniversaryCuid": {
+      "I": "q"
+    }
+  },
+  "PvpBattleInfo": {
+    "PvpBattleCovenantInfos": {
+      "FTzPvpBattleCovenantId": "FTzPvpBattleCovenantInfo"
+    }
+  },
+  "CollectionCategoryActiveNotify": {
+    "CollectionCategoryCuids": [
+      "I"
+    ]
+  },
+  "ShopAutoSellSettingUpdateRequest": {
+    "AutoSellSettings": {
+      "I": "ETzItemGradeType"
+    }
+  },
+  "CovenantBattalionQuerySummaryInfoListResponse": {
+    "SummaryInfoList": [
+      "FTzBattalionSummaryInfo"
+    ]
+  },
+  "ItemAddInfo": {
+    "ItemIndexWithCounts": [
+      "FTzItemIndexWithCount"
+    ]
+  },
+  "RealmIntegrationRealmInfoNotify": {
+    "RealmIntegrationRealmInfos": [
+      "FTzRealmIntegrationRealmInfo"
+    ]
+  },
+  "RealmAccountOptionInfo": {
+    "PushNotificationOptionInfos": {
+      "I": "FTzPushNotificationOptionInfo"
+    }
+  },
+  "CovenantWorldMapMarkerRemoveAllNotify": {
+    "RemovedGuids": [
+      "q"
+    ]
+  },
+  "MarketGoodsDeletedNotify": {
+    "GoodsGuids": [
+      "q"
+    ]
+  },
+  "FieldMigrationReadyRequest": {
+    "SeamlessNpcGuids": [
+      "q"
+    ]
+  },
+  "PlayerMarketInfo": {
+    "PlayerMarketTransactionProcessInfos": {
+      "q": "FTzPlayerMarketTransactionProcessInfo"
+    }
+  },
+  "DestroyerInfosInitializeDataNotify": {
+    "DestroyerInfos": {
+      "q": "msg"
+    }
+  },
+  "SkillStageFlowNotify": {
+    "SkillStageInfos": [
+      "FTzSkillStageInfo"
+    ]
+  },
+  "RealmIntegrationBattleRealmScoreInfo": {
+    "Scores": {
+      "ETzRealmIntegrationBattleScoreKindType": "q"
+    }
+  },
+  "TerritoryInfo": {
+    "HavenEventInfos": {
+      "I": {
+        "I": "msg"
+      }
+    }
+  },
+  "MonsterBookAnalyzeResponse": {
+    "AnalysisStatChangeInfos": [
+      "FTzCharacterStatChangeInfo"
+    ]
+  },
+  "ClasseChangeItemUseParameterInfo": {
+    "BeforeArquiruneCuidToAfterArquiruneCuids": {
+      "I": "I"
+    }
+  },
+  "CovenantQueryRecommendCovenantSummaryInfoListResponse": {
+    "CovenantSummaryInfos": [
+      "FTzCovenantSummaryInfo"
+    ]
+  },
+  "CovenantSynchronizeRecommendedResourceKindNotify": {
+    "RecommendedResourceKinds": [
+      "ETzResourceKindType"
+    ]
+  },
+  "WarehouseInfo": {
+    "PointCurrencyContainerInfo": {
+      "I": "q"
+    }
+  },
+  "ServerDrivenPlayRewardInfo": {
+    "GainedItemInfos": [
+      "FTzGainedItemInfo"
+    ]
+  },
+  "BoundAndErodedInheritanceBatchCraftResponse": {
+    "CraftResultInfos": [
+      "FTzCraftResultInfo"
+    ]
+  },
+  "PlayerCovenantWatchSynchronizeNotify": {
+    "CovenantGuids": [
+      "q"
+    ]
+  },
+  "CashShopRefundableMerchandiseStorageBoxUpdateInfo": {
+    "DeleteSlotGuidList": [
+      "q"
+    ]
+  },
+  "FavorQueryResponse": {
+    "FavorMissionList": [
+      "FTzFavorMissionInfo"
+    ]
+  },
+  "ErLoginServerSessionInitializeInfo": {
+    "RealmIntegrationRealmInfos": [
+      "FTzRealmIntegrationRealmInfo"
+    ]
+  },
+  "CovenantGiftReceiveRewardInfo": {
+    "ItemIndexWithCounts": [
+      "FTzItemIndexWithCount"
+    ]
+  },
+  "MonsterBookNodeAcquireResponse": {
+    "AnalysisStatChangeInfos": [
+      "FTzCharacterStatChangeInfo"
+    ]
+  },
+  "StrongholdBattleCovenantBattalionStrategicObjectiveSetNotify": {
+    "StrategicObjectiveTargetGuidList": [
+      "q"
+    ]
+  },
+  "NameTagHealthBarDisplayOptionInfo": {
+    "DetailInfos": {
+      "ETzNameTagHealthBarDisplayModeType": "FTzNameTagHealthBarDisplayOptionDetailInfo0"
+    }
+  },
+  "CovenantTradeGoodsListQueryResponse": {
+    "GoodsInfos": [
+      "FTzCovenantTradeGoodsInfo"
+    ]
+  },
+  "FavorDatabaseInfo": {
+    "FavorRandomRewardCuidCandidates": [
+      "I"
+    ]
+  },
+  "CovenantWarehouseSummaryInitialDataNotify": {
+    "ItemInfos": [
+      "FTzCuidAndCountInfo0"
+    ]
+  },
+  "StrongholdBattleMarchingStartNotify": {
+    "BattalionMemberStatisticsInfos": [
+      "FTzStrongholdBattleCovenantBattalionMemberStatisticsInfo0"
+    ]
+  },
+  "RedrawableItemInventoryUpdateInfo": {
+    "RemovedRedrawableItemGuidList": [
+      "q"
+    ]
+  },
+  "ItemTransmutationResultInfo": {
+    "FailRewardPointCurrencies": {
+      "I": "q"
+    }
+  },
+  "MailCovenantWeeklyRubyDonationLayoutInfo": {
+    "CovenantWeeklyRubyDonationInfos": [
+      "FTzCovenantWeeklyRubyDonationInfo"
+    ]
+  },
+  "BuffAttachNotify": {
+    "BuffAffectInfoList": [
+      "FTzBuffAffectInfo"
+    ]
+  },
+  "CovenantSettleAccountInfo": {
+    "ResourceHistoryInfos": {
+      "IQ": "FTzResourceHistoryInfo"
+    }
+  },
+  "TutorialBeginFirstOneFailResponse": {
+    "ResultCodesByTutorialCuid": {
+      "I": "I"
+    }
+  },
+  "MailServerDrivenPlayLayoutInfo": {
+    "GainedItemInfos": [
+      "FTzGainedItemInfo"
+    ]
+  },
+  "AnniversaryQueryResponse": {
+    "AnniversaryAchievementPointInfos": {
+      "I": "FTzAnniversaryAchievementPointInfo"
+    }
+  },
+  "CovenantParticipationInfoQueryResponse": {
+    "CovenantParticipationInfos": [
+      "FTzCovenantParticipationInfo"
+    ]
+  },
+  "MovePathInfo": {
+    "PathFromLastRoadJunctionToDestination": [
+      "3f"
+    ]
+  },
+  "ContentsActivationUpdateNotify": {
+    "ContentsActivationFlags": [
+      "?"
+    ]
+  },
+  "StrongholdBattleAttackAltarStartNotify": {
+    "BattalionMemberStatisticsInfos": [
+      "FTzStrongholdBattleCovenantBattalionMemberStatisticsInfo"
+    ]
+  },
+  "SchemaTable": {
+    "Columns": [
+      "FTzDatatoolReferenceNative::Packet::SchemaColumn"
+    ]
+  },
+  "ClientDrivenQuestMissionCompleteNotify": {
+    "TargetGuidList": [
+      "q"
+    ]
+  },
+  "GearMultipleEnhanceRequest": {
+    "MaterialItemGuids": [
+      "q"
+    ]
+  },
+  "SpawnLayerAlreadyActivatedNotify": {
+    "SpawnLayerCuids": [
+      "I"
+    ]
+  },
+  "DeathPenaltyRecordInfoRemoveNotify": {
+    "DeathPenaltyRecordGuids": [
+      "q"
+    ]
+  },
+  "KickCovenantsFromDiplomacyChatRoomRequest": {
+    "CovenantGuids": [
+      "q"
+    ]
+  },
+  "StrongholdBattleAttackGroupInfo": {
+    "StrongholdBattleAttackSiegeWeaponSlotInfos": {
+      "h": "FTzStrongholdBattleAttackSiegeWeaponSlotInfo"
+    }
+  },
+  "PvpRecordInfo": {
+    "CharacterInfos": [
+      "FTzPvpRecordCharacterInfo"
+    ]
+  },
+  "RealmAccountInfo": {
+    "PlayedCutSceneCuids": [
+      "I"
+    ]
+  },
+  "CovenantCampInfoListResponse": {
+    "CovenantCampInfoList": [
+      "FTzCovenantCampInfo"
+    ]
+  },
+  "CovenantBattalionCreateNotify": {
+    "CovenantBattalionInfos": {
+      "q": "FTzCovenantBattalionNotifyInfo"
+    }
+  },
+  "AnniversaryPointCovenantRankingViewInfo": {
+    "OccupiedStrongholdCuids": [
+      "I"
+    ]
+  },
+  "ExperiencePointsCovenantRankingViewInfo": {
+    "OccupiedStrongholdCuids": [
+      "I"
+    ]
+  },
+  "BasicOrGrowthGuideAchievementInfo": {
+    "MissionProgressCounts": [
+      "q"
+    ]
+  },
+  "RealmAccountPresentApplicationCheckInfoResponse": {
+    "PlayerCheckInfos": {
+      "q": "FTzPlayerRealmAccountPresentApplicationCheckInfo"
+    }
+  },
+  "CheatCreateAndEquipGearSetResponse": {
+    "EquipGearSlotInfos": [
+      "FTzGearSlotInfo"
+    ]
+  },
+  "CovenantRejectInvitationsFailResponse": {
+    "RejectFailedCovenantGuids": [
+      "q"
+    ]
+  },
+  "BattalionCheckReadyResultNotify": {
+    "CheckReadyResult": {
+      "ETzBattalionMemberReadyKindType": "i"
+    }
+  },
+  "BasicAchievementInitializeDataNotify": {
+    "BasicAchievementInfos": [
+      "FTzBasicOrGrowthGuideAchievementInfo"
+    ]
+  },
+  "StrongholdWorldMapGeneralShopInfo": {
+    "RegisteredGoodsInfos": [
+      "FTzRegisteredGoodsInfo"
+    ]
+  },
+  "FollowerSquadSlotExpandResponse": {
+    "FollowerSquadSlots": {
+      "B": "q"
+    }
+  },
+  "GearAdditionalInfo": {
+    "ErodedCountByEnhancementGrade": {
+      "h": "i"
+    }
+  },
+  "CovenantTradeSalesManageRequest": {
+    "GoodsGuidWithItemCuidInfos": [
+      "FTzCovenantTradeGoodsGuidWithItemCuidInfo"
+    ]
+  },
+  "CovenantQueryInvitedCovenantSummaryInfoListResponse": {
+    "CovenantSummaryInfoAndInviteDateTimes": {
+      "FTzCovenantSummaryInfo": "IQ"
+    }
+  },
+  "CovenantCurrencyInitialDataNotify": {
+    "CovenantTaxAcquireInfos": [
+      "FTzCovenantTaxAcquireInfo"
+    ]
+  },
+  "CheatTestRewardResponse": {
+    "RewardItemIndexWithCounts": [
+      "FTzRewardItemIndexWithCount"
+    ]
+  },
+  "TutorialBeginFirstOneRequest": {
+    "TutorialCuids": [
+      "I"
+    ]
+  },
+  "CovenantRecommendResourceKindRequest": {
+    "RecommendedResourceKinds": [
+      "ETzResourceKindType"
+    ]
+  },
+  "SeasonPassLevelRewardAllResponse": {
+    "RewardedLevels": {
+      "I": [
+        "i"
+      ]
+    }
+  },
+  "SeasonPassInfo": {
+    "RewardedLevels": {
+      "I": [
+        "i"
+      ]
+    }
+  },
+  "FindPathResponse": {
+    "PathNotByRoadOneShotSpecialMoveIndices": [
+      "i"
+    ]
+  },
+  "EquipmentPresetInfo": {
+    "GearSlotInfos": [
+      "FTzGearSlotInfo0"
+    ]
+  },
+  "GoodsBuyCountsInfo": {
+    "RegisteredGoodsBuyCounts": {
+      "ETzBuyOrCraftLimitLevelType": {
+        "FTzRegisteredGoodsBuyCountKey": "FTzRegisteredGoodsBuyCountInfo"
+      }
+    }
+  },
+  "CovenantGoodsRegistrationInitialDataNotify": {
+    "RegisteredGoodsInfos": {
+      "q": "FTzRegisteredGoodsInfo0"
+    }
+  },
+  "StrongholdSummonWaveDefenseInitialDataNotify": {
+    "StrongholdSummonWaveDefenseSubscriptionSummaryInfos": {
+      "I": "FTzStrongholdSummonWaveDefenseSubscriptionSummaryInfo0"
+    }
+  },
+  "GearEnchantResponse": {
+    "GearEnchantSlotInfos": [
+      "FTzGearEnchantSlotInfo0"
+    ]
+  },
+  "CraftResponse": {
+    "CraftResultInfos": [
+      "FTzCraftResultInfo"
+    ]
+  },
+  "PlayerCampaignTicketInfoNotify": {
+    "CampaignTicketInfos": {
+      "I": "FTzCampaignTicketInfo"
+    }
+  },
+  "PlayerMissionRewardResponse": {
+    "MissionRewardInfos": [
+      "FTzMissionRewardInfo0"
+    ]
+  },
+  "FieldInitializeInfo": {
+    "OccupiableNpcInfos": [
+      "FTzOccupiableNpcInfo0"
+    ]
+  },
+  "TozTcpWelcome": {
+    "UserData": [
+      "B"
+    ]
+  },
+  "GearSlotPresetUnequipNotify": {
+    "UnequipGearSlots": [
+      "ETzGearSlotType"
+    ]
+  },
+  "PlayerBattalionOptionInfo": {
+    "PurposeTexts": {
+      "i": "s"
+    }
+  },
+  "ShopCashMerchandiseResetMerchandiseBuyCountInfoNotify": {
+    "UpdatedMerchandiseBuyCountInfoList": [
+      "FTzMerchandiseBuyCountInfo"
+    ]
+  },
+  "SerializedMessageCacheElement": {
+    "message": [
+      "B"
+    ]
+  },
+  "CombinedInventoryInfo": {
+    "RedrawableItemInventoryInfosByItemCategory": {
+      "ETzItemCategoryType": "FTzRedrawableItemInventoryInfo0"
+    }
+  },
+  "CombinedInventoryUpdateInfo": {
+    "RedrawableInventoryUpdateInfosByItemCategory": {
+      "ETzItemCategoryType": "FTzRedrawableItemInventoryUpdateInfo"
+    }
+  },
+  "BuildingInfo": {
+    "ParticipatingContentsGuids": [
+      "q"
+    ]
+  },
+  "XorHandshake": {
+    "xorStaticKey": [
+      "B"
+    ]
+  },
+  "StrongholdBattleSiegeWeaponLocationInfoNotify": {
+    "StrongholdBattleSiegeWeaponLocationInfos": [
+      "FTzStrongholdBattleSiegeWeaponLocationInfo"
+    ]
+  },
+  "RedrawableItemAdditionalInfo": {
+    "ExcludedItemCuidsWhenRedrawing": [
+      "I"
+    ]
+  },
+  "FollowerSquadUpdateNotify": {
+    "FollowerSquadSlots": {
+      "B": "q"
+    }
+  },
+  "CovenantTradeSalesManageResponse": {
+    "GoodsGuidsAndResultCodes": {
+      "q": "I"
+    }
+  },
+  "PlayerPvpInfo": {
+    "CrossRealmAlertPlayers": {
+      "q": "FTzCrossRealmAlertPlayerRegisterInfo"
+    }
+  },
+  "MarketGoodsExpireDateTimeUpdateNotify": {
+    "GoodsGuids": [
+      "q"
+    ]
+  },
+  "ShopSellRequest": {
+    "ItemGuidSelectors": [
+      "FTzItemGuidSelector"
+    ]
+  },
+  "FavorInfo": {
+    "FavorRandomRewardCuidCandidates": [
+      "I"
+    ]
+  },
+  "AlertPlayerQueryResponse": {
+    "CrossRealmAlertPlayerInfos": [
+      "FTzAlertPlayerInfo"
+    ]
+  },
+  "CrossRealmSeasonInfoNotify": {
+    "CrossRealmSeasonInfos": {
+      "ETzRegionContentKindType": "FTzCrossRealmSeasonInfo"
+    }
+  },
+  "CovenantAddJoinApplicationsNotify": {
+    "CovenantJoinApplicationInfos": [
+      "FTzCovenantJoinApplicationInfo"
+    ]
+  },
+  "PointCurrencyContainerUpdateInfo": {
+    "CuidToAmount": {
+      "I": "q"
+    }
+  },
+  "OtherPlayerLootNotify": {
+    "ItemIndexWithCounts": [
+      "FTzItemIndexWithCount"
+    ]
+  },
+  "BattalionCovenantDiplomacyNotify": {
+    "AllianceCovenantGuids": [
+      "q"
+    ]
+  },
+  "CraftQueryResponse": {
+    "CraftCounts": {
+      "I": "FTzCraftCountInfo"
+    }
+  },
+  "DistrictFavorDatabaseInfo": {
+    "CurrentAvailableFavorDatabaseInfos": {
+      "Iq": "FTzFavorDatabaseInfo"
+    }
+  },
+  "AnniversaryStrongholdOccupationRecordInfo": {
+    "AnniversaryStrongholdOccupationCovenantInfos": [
+      "FTzAnniversaryStrongholdOccupationCovenantInfo"
+    ]
+  },
+  "CovenantCancelInvitationFailResponse": {
+    "CancelFailedPlayerGuids": [
+      "q"
+    ]
+  },
+  "CovenantQuerySummaryInfoListResponse": {
+    "CovenantSummaryInfos": [
+      "FTzCovenantSummaryInfo"
+    ]
+  },
+  "SchemaDataInfo": {
+    "SchemaDataTables": [
+      "msg"
+    ]
+  },
+  "OccupiableNpcOccupationScoreUpdateDataNotify": {
+    "NpcOccupationScoreCovenantViewInfos": {
+      "q": "FTzNpcOccupationScoreCovenantViewInfo0"
+    }
+  },
+  "PvpRecordQueryResponse": {
+    "PvpRecordInfos": {
+      "q": "FTzPvpRecordInfo"
+    }
+  },
+  "ShopBuyRequest": {
+    "SystemGoodsCuidToCounts": {
+      "I": "q"
+    }
+  },
+  "DatatoolHandshakeRequest": {
+    "DataHeaders": [
+      "FTzDataHeader"
+    ]
+  },
+  "StrongholdBattleInitialDataNotify": {
+    "StrongholdBattleSummaryInfos": {
+      "I": "FTzStrongholdBattleSummaryInfo0"
+    }
+  },
+  "CovenantRubyShopMerchandiseInfoNotify": {
+    "MerchandiseInfos": [
+      "FTzCovenantRubyShopMerchandiseInfo0"
+    ]
+  },
+  "CombatTargetOptionInfo": {
+    "AutoAttackTargetOnNpcGrades": [
+      "ETzAutoAttackTargetNpcGradeType"
+    ]
+  },
+  "FollowerInfo": {
+    "ParticipatingContentsGuids": [
+      "q"
+    ]
+  },
+  "StrongholdBattleDeclarePrerequisitesQueryResponse": {
+    "HavenCuidToTotalTravelDistances": {
+      "I": "f"
+    }
+  },
+  "CovenantRealmTransferCheckInfoResponse": {
+    "PlayerCheckInfos": {
+      "q": "FTzPlayerRealmTransferCheckInfo0"
+    }
+  },
+  "VolatileInGameNotificationInfo": {
+    "AdditionalCuidParams": [
+      "I"
+    ]
+  },
+  "PlayerMissionRewardRequest": {
+    "MissionCuidAndSteps": {
+      "I": "i"
+    }
+  },
+  "NgsNotify": {
+    "Data": [
+      "B"
+    ]
+  },
+  "AutoSellSettingsInfo": {
+    "Settings": {
+      "I": "ETzItemGradeType"
+    }
+  },
+  "NpcOccupationInfo": {
+    "NpcOccupationScoreCovenantInfos": {
+      "q": "msg"
+    }
+  },
+  "QueryChatRecordsResponse": {
+    "ChatMessageInfos": [
+      "FTzChatMessageInfo"
+    ]
+  },
+  "GearEnchantPreserveItemAdditionalInfo": {
+    "GearEnchantSlotInfos": [
+      "FTzGearEnchantSlotInfo"
+    ]
+  },
+  "ShopCashMerchandiseInitialDataNotify": {
+    "RealmTotalMerchandiseBuyCountInfoList": [
+      "FTzMerchandiseBuyCountInfo0"
+    ]
+  },
+  "ServerDrivenPlayRecordsResponse": {
+    "Infos": [
+      "FTzServerDrivenPlayRecordsInfo"
+    ]
+  },
+  "CovenantSupportQueryInfo": {
+    "CovenantSupportInfos": [
+      "FTzCovenantSupportInfo"
+    ]
+  },
+  "CovenantRealmTransferInfo": {
+    "CovenantRealmTransferMemberReadyChecks": {
+      "q": "?"
+    }
+  },
+  "StrongholdBattleAttackPhaseStartNotify": {
+    "BattalionMemberStatisticsInfos": [
+      "FTzStrongholdBattleCovenantBattalionMemberStatisticsInfo"
+    ]
+  },
+  "MarketSellSettleRequest": {
+    "GoodsGuids": [
+      "q"
+    ]
+  },
+  "CheatApplySpellstonePresetResponse": {
+    "SpellstoneSlotPageInfos": {
+      "I": "FTzSpellstoneSlotPageInfo"
+    }
+  },
+  "RealmAccountWarehouseAutoStoreSettingsInfo": {
+    "Settings": {
+      "I": "ETzItemGradeType"
+    }
+  },
+  "StrongholdBuildingUpdateBuildingAccessPermissionsResponse": {
+    "BuildingAccessPermissionKinds": {
+      "I": "I"
+    }
+  },
+  "CovenantUpdateCovenantPermissionsInfosRequest": {
+    "CovenantPermissionsInfos": {
+      "s": "FTzCovenantPermissionsInfo"
+    }
+  },
+  "OccupiableNpcSummaryBulkUpdateDataNotify": {
+    "OccupiableNpcSummaryInfos": [
+      "msg"
+    ]
+  },
+  "MailQueryResponse": {
+    "Mails": [
+      "FTzMailInfo"
+    ]
+  },
+  "PlayerCovenantInfo": {
+    "JoinAppliedCovenantGuids": [
+      "q"
+    ]
+  },
+  "PlayerAutoUseInfo": {
+    "RootSkillCuids": [
+      "I"
+    ]
+  },
+  "CheatTestGearEnchantOptionResponse": {
+    "GearEnchantSlotToStatKindToAmountToCount": {
+      "h": {
+        "ETzAdjustableStatKindType": {
+          "f": "i"
+        }
+      }
+    }
+  },
+  "MailReservedStrongholdProtectionFailLayoutInfo": {
+    "AttackCovenantNames": [
+      "s"
+    ]
+  },
+  "ErosionInstalledWithoutPermissionAddNotify": {
+    "ErosionInfos": [
+      "FTzErosionInfo"
+    ]
+  },
+  "NavMeshTileCheckResponse": {
+    "CheckedTiles": [
+      "FTzNavMeshTileInfo"
+    ]
+  },
+  "WorldMapPvpBattleInitialDataNotify": {
+    "PvpBattleInfos": {
+      "I": {
+        "q": "msg"
+      }
+    }
+  },
+  "CovenantHistoryShowArrivalNotify": {
+    "CovenantHistoryInfos": {
+      "ETzCovenantHistoryCategoryType": [
+        "FTzCovenantHistoryInfo"
+      ]
+    }
+  },
+  "StrongholdBattleAttackResourceInfo": {
+    "SiegeWeaponCounts": {
+      "I": "q"
+    }
+  },
+  "StrongholdBattleCampaignConditionProgressSynchronizeNotify": {
+    "CampaignConditionProgressInfos": [
+      "FTzCampaignConditionProgressInfo"
+    ]
+  },
+  "CheatUpdateAchievementMissionProgressCountsRequest": {
+    "MissionProgressCounts": [
+      "q"
+    ]
+  },
+  "BattalionMemberLootNotify": {
+    "ItemIndexWithCounts": [
+      "msg"
+    ]
+  },
+  "RealmAccountRealmTransferExecuteResponse": {
+    "PlayerCheckInfos": {
+      "q": "FTzPlayerRealmTransferCheckInfo"
+    }
+  },
+  "PlayerInitializeInfo": {
+    "PaidAttendanceInfos": [
+      "FTzPaidAttendanceInfo0"
+    ]
+  },
+  "CheatInstallAllArquirunesResponse": {
+    "InstalledArquiruneCuids": [
+      "I"
+    ]
+  },
+  "DeathPenaltyRecordInfoChangedNotify": {
+    "GuidToChangedRecordKinds": {
+      "q": "ETzDeathPenaltyRecordKindType"
+    }
+  },
+  "SavedInGameNotificationInfo": {
+    "AdditionalCuidParams": [
+      "I"
+    ]
+  },
+  "PlayerMarketTransactionHistoryResponse": {
+    "MarketTransactionInfos": [
+      "FTzMarketTransactionInfo0"
+    ]
+  },
+  "StrongholdBattleRewardInfo": {
+    "CurrencyCuidToAmount": {
+      "I": "q"
+    }
+  },
+  "StrongholdBattleEndNotify": {
+    "BattalionMemberDisplayInfos": [
+      "FTzStrongholdBattleCovenantBattalionMemberDisplayInfo"
+    ]
+  },
+  "RankingQueryResponse": {
+    "RankingInfos": [
+      "msg"
+    ]
+  },
+  "StrongholdBattleSummonOutpostStartNotify": {
+    "BattalionMemberStatisticsInfos": [
+      "FTzStrongholdBattleCovenantBattalionMemberStatisticsInfo"
+    ]
+  },
+  "StrongholdBattleAttackInnerGateStartNotify": {
+    "BattalionMemberStatisticsInfos": [
+      "FTzStrongholdBattleCovenantBattalionMemberStatisticsInfo"
+    ]
+  },
+  "AnniversaryAchievementPointInfo": {
+    "RewardedGoalPoints": [
+      "i"
+    ]
+  },
+  "PlayerLocationMonitoringDeregisterNotify": {
+    "DeregisterPlayerGuids": [
+      "q"
+    ]
+  },
+  "ChatRoomRecordsInitializationInfo": {
+    "ChatMessageInfos": [
+      "FTzChatMessageInfo"
+    ]
+  },
+  "CovenantQuerySummaryInfoListRequest": {
+    "CovenantGuidList": [
+      "q"
+    ]
+  },
+  "CheatAnniversaryAchievementResetAllResponse": {
+    "AnniversaryAchievementPointInfos": {
+      "I": "FTzAnniversaryAchievementPointInfo"
+    }
+  },
+  "WarehouseMigrationInfo": {
+    "ItemIndexWithCounts": [
+      "FTzItemIndexWithCount"
+    ]
+  },
+  "ErChatServerSessionInitializeInfo": {
+    "BlockedChatEntityInfos": [
+      "FTzBlockedChatEntityInfo"
+    ]
+  },
+  "ChatMessageNotify": {
+    "ChatMessageInfos": [
+      "msg"
+    ]
+  },
+  "QuickSlotUpdateInfo": {
+    "RemovedQuickSlotIndices": [
+      "ETzQuickSlotIndexType"
+    ]
+  },
+  "CovenantBattalionExpeditionInfo": {
+    "AnotherBattalionGuids": [
+      "q"
+    ]
+  },
+  "QuestsInfo": {
+    "LastProceedEpisodeCuidsByEpisodeGroup": {
+      "ETzEpisodeGroupType": "I"
+    }
+  },
+  "NavMeshTileDataResponse": {
+    "CheckedTiles": [
+      "FTzNavMeshTileInfo"
+    ]
+  },
+  "CollectionProgressInfo": {
+    "RegisteredCollectionSlotItemCuids": {
+      "I": "I"
+    }
+  },
+  "CovenantWarehouseSummaryUpdateInfoNotify": {
+    "RemovedItemCuids": [
+      "I"
+    ]
+  },
+  "FollowerSquadUpdateRequest": {
+    "FollowerSquadSlots": {
+      "B": "q"
+    }
+  },
+  "ContentsRelockNotify": {
+    "ContentsUnlockKinds": [
+      "ETzContentsUnlockKindType"
+    ]
+  },
+  "CovenantCancelInvitationRequest": {
+    "PlayerGuids": [
+      "q"
+    ]
+  },
+  "GoldHistoryInfo": {
+    "ExpenseHistories": {
+      "ETzGoldExpenseKindType": "q"
+    }
+  },
+  "MarketSellReregisterRequest": {
+    "RegistrationFeeCurrencyInfoByGoodsGuid": {
+      "q": "FTzCuidAndCountInfo"
+    }
+  },
+  "CovenantWorldMapMarkerInitialDataNotify": {
+    "WorldMapMarkerInfos": [
+      "FTzWorldMapMarkerInfo0"
+    ]
+  }
+}
