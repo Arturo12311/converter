@@ -3,16 +3,18 @@ Mix.install([{:jason, "~> 1.2"}])
 defmodule Converter do
   def load_json(filepath) do
     case File.read(filepath) do
-      {:ok, content} -> Jason.decode(content)
+      {:ok, content} -> Jason.decode(content, objects: :ordered_objects)
       {:error, _} -> {:error, "Failed to read file: #{filepath}"}
     end
   end
 
   def convert_to_elixir_structures(json_data) do
     Enum.map(json_data, fn {struct_name, fields} ->
-      formatted_fields = Enum.map(fields, fn {field_name, field_type} ->
-        %{name: field_name, type: format(field_type)}
-      end)
+      formatted_fields = fields
+        |> Enum.to_list()  # Convert to list to preserve order
+        |> Enum.map(fn {field_name, field_type} ->
+          %{name: field_name, type: format(field_type)}
+        end)
       {struct_name, formatted_fields}
     end)
   end
@@ -28,9 +30,16 @@ defmodule Converter do
           {:struct, rest}
         end
       x when is_map(x) ->
-        {:map, Enum.map(x, fn {k, v} -> {format(k), format(v)} end)}
+        case Enum.to_list(x) do
+          [{k, v}] ->
+            key = format(k)
+            value = format(v)
+            {:map, key, value}
+        end
       x when is_list(x) ->
-        {:list, Enum.map(x, &format/1)}
+        case x do
+          [first | _] -> {:list, format(first)}
+        end
       "IQ0" -> {:nullable, {:struct, "FDateTime"}}
       "IQ" -> {:struct, "FDateTime"}
       "Iq" -> {:struct, "FDateTime"}
@@ -67,13 +76,14 @@ defmodule Converter do
   end
 end
 
+
 #"""MAIN"""#
 
 input_file = "C:\\AL\\PROJECTS\\WP\\converter\\_structs.json"
 output_file = "C:\\AL\\PROJECTS\\WP\\converter\\_structs.exs"
 
 with {:ok, json_data} <- Converter.load_json(input_file),
-     structures = Converter.convert_to_elixir_structures(json_data),
+     structures <- Converter.convert_to_elixir_structures(json_data),
      :ok <- File.write(output_file, inspect(structures, pretty: true, limit: :infinity)) do
   IO.puts("Successfully converted JSON to Elixir structures.")
   IO.puts("Output written to: #{output_file}")

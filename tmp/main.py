@@ -17,14 +17,4 @@ print(to_patch)
 with open('_to_patch.json', 'w') as f:
     json.dump(to_patch, f, indent=2)
 
-"""ETzNpcOccupationStateType = 4
-ETzResultCodeType = I
-"ETzCharacterStateType", = I
-"ETzConnectionStatusType", = 4
 
-ETzSeasonPassRewardKindType
-ETzConnectionStatusType
-ETzMountInteractionStateType
-
-CovenantInfo
-PlayerInitializeInfo"""
